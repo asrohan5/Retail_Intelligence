@@ -9,7 +9,7 @@ import logging
 import pandas as pd
 
 
-from logging import logging as logger
+from logger import logging as logger
 
 
 def check_uniques(df: pd.DataFrame) -> dict:

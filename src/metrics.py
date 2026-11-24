@@ -5,8 +5,7 @@ import logging
 import numpy as np
 import pandas as pd
 
-
-from logging import logging as logger
+from logger import logging as logger
 
 RFM_LABELS = [1, 2, 3, 4, 5]
 

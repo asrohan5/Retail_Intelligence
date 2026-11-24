@@ -8,7 +8,7 @@ from src import config
 from src.features import engineer_features
 
 
-from logging import logging as logger
+from logger import logging as logger
 
 def create_churn_dataset(
     df_clean: pd.DataFrame,

@@ -7,6 +7,7 @@ import pandas as pd
 
 from src import config
 
+
 from logger import logging as logger
 
 def _read_source() -> pd.DataFrame:

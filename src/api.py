@@ -11,7 +11,8 @@ from pydantic import BaseModel, Field
 from src import config
 from src.serialization import load_production_model
 
-from logging import logging as logger
+
+from logger import logging as logger
 
 model = None
 required_features: list[str] = []

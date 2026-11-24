@@ -8,7 +8,7 @@ import joblib
 from src import config
 
 
-from logging import logging as logger
+from logger import logging as logger
 
 
 def save_production_artifacts(model, feature_columns, metadata: dict | None = None) -> None:

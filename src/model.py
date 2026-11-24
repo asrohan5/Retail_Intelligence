@@ -17,7 +17,7 @@ from src.features import MODEL_FEATURES
 from src.transforms import signed_log1p
 
 
-from logging import logging as logger
+from logger import logging as logger
 
 # Heavy right-tailed features get a log transform before scaling (linear model only;
 # trees are invariant to monotonic transforms so they use the raw features).
